@@ -1,0 +1,649 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+  box-sizing: 0;
+}
+
+Nav {
+  background-image: url(/img/background__menu.png);
+  height: 8rem;
+}
+
+Nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  gap: 180px;
+}
+
+Nav ul li {
+  font-family: 'THE AMAZING SPIDER-MAN', 'Roboto';
+  padding: 15px;
+  text-align: center;
+  padding: 20px;
+  border: solid 2px transparent;
+  border-radius: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+Nav ul li a {
+  padding: 30px;
+  margin: 8px;
+}
+
+Nav ul li button {
+  border: none;
+}
+
+Nav ul li:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  border: solid 4px #062f86;
+  background-image: url(../img/background__botton.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+Nav ul li a:hover {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #862627;
+  text-decoration: none;
+}
+
+Nav .dropdown {
+  margin-right: 5rem;
+}
+
+Nav .modal-css {
+  background-image: url(../img/background-login-spider.jpg);
+  background-size: cover;
+}
+
+Nav .label_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: blue;
+}
+
+.css-menu-modal {
+  background-image: url(/img/marvel_studios.png);
+}
+
+/* Fim do menu Nav */
+.banner-project {
+  height: 34rem;
+  background-image: url(../img/banner__spider_man.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 0 0 10em black;
+          box-shadow: inset 0 0 10em black;
+}
+
+/* Fim do Banner*/
+/* Configuração Modal >>*/
+.form_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 13px;
+  padding: 32px;
+  border-radius: 24px;
+  margin-top: 264px;
+}
+
+.form_login .label_login {
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 7px;
+  font-weight: 600;
+}
+
+.form_login .label_login input {
+  height: 35px;
+  padding-left: 5px;
+  border-radius: 10px;
+}
+
+.form_login .button_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 2s;
+  transition: 2s;
+  text-decoration: none;
+  color: white;
+  border-radius: 5%;
+  background-color: red;
+}
+
+.form_login .button_login a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 12px 28px 12px 28px;
+  color: white;
+}
+
+/* Configuração Cards */
+section {
+  background-image: url(../img/background__body.jpg);
+  gap: 70px;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 50px;
+  -webkit-box-shadow: inset 5em 5em 20em 20em black;
+          box-shadow: inset 5em 5em 20em 20em black;
+}
+
+section .card__film {
+  opacity: 35%;
+  Height: 412px;
+  border-radius: 32px;
+  background-color: #e5e5e5;
+  -webkit-box-shadow: #6f8296 0px 20px 30px -10px;
+          box-shadow: #6f8296 0px 20px 30px -10px;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  overflow-y: scroll;
+  scroll-behavior: initial;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+section .card__film .button__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 2s;
+  transition: 2s;
+  text-decoration: none;
+  color: white;
+}
+
+section .card__film button a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 12px 28px 12px 28px;
+  color: white;
+}
+
+section .card__film:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 2s;
+  transition: 2s;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  opacity: 100%;
+}
+
+section .container__text h4 {
+  font-size: 24px;
+  text-align: center;
+}
+
+section .container__text p {
+  padding: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #e5e5e5;
+}
+
+footer .dev__01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 40px;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .student {
+  text-align: center;
+}
+
+footer .office {
+  font-size: 14px;
+}
+
+footer img {
+  gap: 20px;
+  border-radius: 4px;
+  width: 90px;
+}
+
+footer .name__student {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer .links {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .data__dev {
+  font-family: 'THE AMAZING SPIDER-MAN', 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer .data__dev p {
+  padding: 30px;
+}
+
+footer .homenage__headspider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+footer .homenage__headspider p {
+  font-size: 16px;
+  margin-right: 12px;
+  font-weight: 700;
+}
+
+footer .homenage {
+  width: 150px;
+  margin-left: 12px;
+}
+
+footer .head__spider {
+  -webkit-transition: all 1.2s;
+  transition: all 1.2s;
+  margin-right: 12px;
+}
+
+footer .head__spider:hover {
+  -webkit-transform: rotateZ(360deg);
+  transform: rotatez(360deg);
+}
+
+/*Fim rodapé*/
+/*Responsividade mobile*/
+@media (max-width: 425px) {
+  nav {
+    display: none;
+  }
+  .detail__film_cover {
+    margin: 24px;
+  }
+  .detail__title {
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+  }
+  .detail__text {
+    color: white;
+    padding: 40px 100px;
+    line-height: 27px;
+    font-size: 16px;
+  }
+  h3 {
+    font-size: .7rem;
+  }
+  .logo2 {
+    width: 13;
+  }
+  .cardfilm {
+    height: 400px;
+    width: 308px;
+  }
+  footer {
+    font-size: 0.5rem;
+  }
+  footer img {
+    width: 50px;
+  }
+  .dev__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .links {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 50px;
+  }
+  .data__dev {
+    font-size: .7rem;
+    padding-bottom: 20px;
+  }
+  .homenage__headspider {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+  .head__spider {
+    width: 90px;
+  }
+  .detail__film_cover {
+    height: 290px;
+    -webkit-box-shadow: inset 6em 0 10em black;
+            box-shadow: inset 6em 0 10em black;
+  }
+  .detail__text {
+    padding: 40px;
+    line-height: 27px;
+    font-size: 16px;
+  }
+  .trailer {
+    height: 300px;
+    margin: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .login_logo {
+    display: none;
+  }
+  .background_main_login {
+    background-position: center;
+  }
+  .logo_effect_login {
+    display: block;
+  }
+  .marvel_logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 4rem;
+  }
+}
+
+/*Responsividade mobile*/
+@media (max-width: 425px) {
+  .detail__film_cover {
+    margin: 24px;
+  }
+  .detail__title {
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+  }
+  .detail__text {
+    color: white;
+    padding: 40px 100px;
+    line-height: 27px;
+    font-size: 16px;
+  }
+  .css-menu-modal {
+    background-image: url(/img/marvel_studios.png);
+    background-size: 10rem;
+  }
+  h3 {
+    font-size: .7rem;
+  }
+  .logo2 {
+    width: 13;
+  }
+  .cardfilm {
+    height: 400px;
+    width: 308px;
+  }
+  footer {
+    font-size: 0.5rem;
+  }
+  footer img {
+    width: 50px;
+  }
+  .dev__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .links {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 50px;
+  }
+  .data__dev {
+    font-size: .7rem;
+    padding-bottom: 20px;
+  }
+  .homenage__headspider {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+  .head__spider {
+    width: 90px;
+  }
+  .detail__film_cover {
+    height: 290px;
+    -webkit-box-shadow: inset 6em 0 10em black;
+            box-shadow: inset 6em 0 10em black;
+  }
+  .detail__text {
+    padding: 40px;
+    line-height: 27px;
+    font-size: 16px;
+  }
+  .trailer {
+    height: 300px;
+    margin: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .login_logo {
+    display: none;
+  }
+  .background_main_login {
+    background-position: center;
+  }
+  .logo_effect_login {
+    display: block;
+  }
+  .marvel_logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 4rem;
+  }
+}
+
+/*Responsividade mobile*/
+/*Responsividade Tablet*/
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .decoration__menu {
+    opacity: 100;
+  }
+  .detail__title {
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+  }
+  .detail__text {
+    color: white;
+    padding: 40px 100px;
+    line-height: 27px;
+    font-size: 16px;
+  }
+  .container___films {
+    -webkit-box-shadow: inset 1em 10em 20em 10em black;
+            box-shadow: inset 1em 10em 20em 10em black;
+  }
+  .dev__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .detail__film_cover {
+    -webkit-box-shadow: inset 4em 5em 10em black;
+            box-shadow: inset 4em 5em 10em black;
+  }
+  .logo_effect_login {
+    display: block;
+  }
+  .login_logo {
+    display: none;
+  }
+  .background_main_login {
+    background-position: center;
+  }
+  .marvel_logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 4rem;
+  }
+}
+
+/*Responsividade Tablet*/
+/*# sourceMappingURL=style.css.map */

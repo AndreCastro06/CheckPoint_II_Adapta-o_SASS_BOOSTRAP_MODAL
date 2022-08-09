@@ -1,0 +1,586 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+  box-sizing: 0;
+}
+
+Nav {
+  background-image: url(/img/background__menu.png);
+  height: 8rem;
+
+  
+
+  ul {
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 180px
+  }
+  ul li {
+  font-family: 'THE AMAZING SPIDER-MAN', 'Roboto';
+  
+  padding: 15px;
+  text-align: center;
+  padding: 20px;
+  border: solid 2px transparent;
+  border-radius: 24px;
+  align-items: center;
+  justify-items: center;
+  transition: all 0.6s;
+
+   
+  }
+
+  ul li a {
+   padding: 30px;
+   margin: 8px;
+   
+  }
+
+  ul li button {
+border: none;
+
+  }
+
+  ul li:hover {
+    transform: scale(1.02);
+    border: solid 4px rgb(6, 47, 134);
+    background-image: url(../img/background__botton.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+  }
+
+  ul li a:hover {
+    font-size: 14px;
+    font-weight:bolder ;
+    color: rgb(134, 38, 39);
+    text-decoration: none;
+
+  }
+    .dropdown{
+     margin-right: 5rem;
+    }
+
+
+    .modal-css{
+      background-image: url(../img/background-login-spider.jpg);
+      background-size: cover;
+      
+  
+    }
+  
+
+    .label_login{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: blue;
+    }
+}
+.css-menu-modal {
+  background-image:url(/img/marvel_studios.png)
+}
+
+/* Fim do menu Nav */
+
+.banner-project {
+  height: 34rem;
+  background-image: url(../img/banner__spider_man.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 10em black;
+
+}
+
+/* Fim do Banner*/
+
+/* Configuração Modal >>*/
+
+.form_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  padding: 32px;
+  border-radius: 24px;
+  margin-top: 264px;
+
+.label_login {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-weight: 600;
+}
+
+.label_login input {
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+.button_login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.05);
+    transition: 2s;
+    text-decoration: none;
+    color:white;
+    border-radius: 5%;
+    background-color: red;
+    
+}
+
+.button_login a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 28px 12px 28px;
+    color: white;
+}
+
+
+}
+/* Configuração Cards */
+
+section {
+  background-image: url(../img/background__body.jpg);
+  gap: 70px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 50px;
+  box-shadow: inset 5em 5em 20em 20em black;
+
+
+.card__film {
+  opacity: 35%;
+  Height: 412px;
+  border-radius: 32px;
+  background-color: rgb(229, 229, 229);
+  box-shadow: rgb(111, 130, 150) 0px 20px 30px -10px;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  overflow-y: scroll;
+  scroll-behavior: initial;
+  overflow-x: hidden;
+  cursor: pointer;
+
+  .button__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.05);
+    transition: 2s;
+    text-decoration: none;
+    color:white;
+}
+
+  button a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 28px 12px 28px;
+    color: white;
+
+}
+
+}
+
+.card__film:hover {
+  transform: scale(1.20);
+  transition: 2s;
+  text-decoration: none;
+  background-color: black;
+  color:white;
+  opacity: 100%;
+}
+
+
+.container__text h4 {
+  font-size: 24px;
+  text-align:center;
+}
+
+.container__text p {
+  padding: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 16px;
+}
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(229, 229, 229);
+
+
+.dev__01 {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.student {
+  text-align: center;
+}
+
+.office{
+  font-size: 14px;
+}
+
+ img {
+  gap: 20px;
+  border-radius: 4px;
+  width: 90px;
+}
+
+.name__student {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.links {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.data__dev {
+  font-family: 'THE AMAZING SPIDER-MAN', 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.data__dev p {
+  padding: 30px;
+}
+
+.homenage__headspider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.homenage__headspider p{
+  font-size: 16px;
+  margin-right: 12px;
+  font-weight: 700;
+}
+
+.homenage {
+  width: 150px;
+  margin-left: 12px;
+}
+
+.head__spider {
+  transition: all 1.2s;
+  margin-right: 12px;
+  
+}
+
+.head__spider:hover {
+  -webkit-transform: rotateZ(360deg);
+  transform: rotatez(360deg);
+}
+}
+/*Fim rodapé*/
+
+
+/*Responsividade mobile*/
+@media (max-width: 425px) {
+
+  nav {
+      display: none;
+  }
+
+  .detail__film_cover {
+      margin: 24px;
+      
+  }
+
+  .detail__title {
+      color:white; 
+      text-align: center;
+      padding-top: 8px;
+  }
+  
+  .detail__text {
+      color:white;
+      padding: 40px 100px;
+      line-height: 27px;
+      font-size: 16px;
+  }
+  
+
+  h3 {
+      font-size: .7rem;
+  }
+
+  .logo2 {
+      width: 13
+  }
+
+  .cardfilm {
+      height: 400px;
+      width: 308px;
+  }
+
+  footer {
+      font-size: 0.5rem;
+  }
+
+  footer img {
+      width: 50px;
+  }
+
+  .dev__group {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .links {
+      justify-content: center;
+      gap: 50px;
+  }
+
+  .data__dev {
+      font-size: .7rem;
+      padding-bottom: 20px;
+  }
+
+  .homenage__headspider {
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .head__spider {
+      width: 90px;
+  }
+
+  .detail__film_cover {
+      height: 290px;
+      box-shadow: inset 6em 0 10em black;
+  }
+
+  .detail__text {
+      padding: 40px;
+      line-height: 27px;
+      font-size: 16px;
+  }
+
+  .trailer {
+      height: 300px;
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+  }  
+
+  .login_logo {
+      display: none;
+  }
+
+  .background_main_login {
+      background-position: center;
+  }
+
+  .logo_effect_login {
+      display: block;
+  }
+
+  .marvel_logo {
+      display: flex;
+      justify-content: center;
+      margin-top: 4rem;
+  }
+}
+/*Responsividade mobile*/
+@media (max-width: 425px) {
+
+
+
+  .detail__film_cover {
+      margin: 24px;
+      
+  }
+
+  .detail__title {
+      color:white; 
+      text-align: center;
+      padding-top: 8px;
+  }
+  
+  .detail__text {
+      color:white;
+      padding: 40px 100px;
+      line-height: 27px;
+      font-size: 16px;
+  }
+
+  .css-menu-modal {
+    background-image:url(/img/marvel_studios.png);
+    background-size: 10rem;
+  }
+
+  h3 {
+      font-size: .7rem;
+  }
+
+  .logo2 {
+      width: 13
+  }
+
+  .cardfilm {
+      height: 400px;
+      width: 308px;
+  }
+
+  footer {
+      font-size: 0.5rem;
+  }
+
+  footer img {
+      width: 50px;
+  }
+
+  .dev__group {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .links {
+      justify-content: center;
+      gap: 50px;
+  }
+
+  .data__dev {
+      font-size: .7rem;
+      padding-bottom: 20px;
+  }
+
+  .homenage__headspider {
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .head__spider {
+      width: 90px;
+  }
+
+  .detail__film_cover {
+      height: 290px;
+      box-shadow: inset 6em 0 10em black;
+  }
+
+  .detail__text {
+      padding: 40px;
+      line-height: 27px;
+      font-size: 16px;
+  }
+
+  .trailer {
+      height: 300px;
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+  }  
+
+  .login_logo {
+      display: none;
+  }
+
+  .background_main_login {
+      background-position: center;
+  }
+
+  .logo_effect_login {
+      display: block;
+  }
+
+  .marvel_logo {
+      display: flex;
+      justify-content: center;
+      margin-top: 4rem;
+  }
+}
+/*Responsividade mobile*/
+
+/*Responsividade Tablet*/
+@media (max-width: 768px) {
+
+  nav {
+      display: none;
+  }
+
+  .decoration__menu {
+      opacity: 100;
+  }
+  .detail__title {
+      color:white; 
+      text-align: center;
+      padding-top: 8px;
+  }
+  
+  .detail__text {
+      color:white;
+      padding: 40px 100px;
+      line-height: 27px;
+      font-size: 16px;
+  }
+
+  .container___films {
+      box-shadow: inset 1em 10em 20em 10em black;
+  }
+
+  .dev__group {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .detail__film_cover {
+      box-shadow: inset 4em 5em 10em black;
+  }
+
+  .logo_effect_login {
+      display: block;
+  }
+
+  .login_logo {
+      display: none;
+  }
+
+  .background_main_login {
+      background-position: center;
+  }
+
+  .marvel_logo {
+      display: flex;
+      justify-content: center;
+      margin-top: 4rem;
+  }
+}
+/*Responsividade Tablet*/
